@@ -1,19 +1,19 @@
 # Linux Notes - Day 1: Basics
 
-# What is Linux?
+ What is Linux?
 - Free, open-source operating system
 - Most cloud servers (AWS EC2, Azure VMs) run Linux
 - Servers have no desktop, only a terminal
 - Commands are the main way to work
 
-# Setup (WSL)
+ Setup (WSL)
 - Open PowerShell as administrator
 - Run `wsl --install`
 - Restart the computer
 - Open Ubuntu from the Start menu
 - Create a username and password
 
-# Reading the prompt
+ Reading the prompt
 - `user@computer:~$`
 - `user` = my username
 - `computer` = computer name
@@ -21,7 +21,7 @@
 - `$` = normal user
 - `#` = root (admin)
 
-# Filesystem
+ Filesystem
 - No C: or D: drives
 - Everything is one tree starting at `/` (root)
 - `/home` = personal files
@@ -31,14 +31,14 @@
 - `/bin` = essential commands
 - `/tmp` = temporary files
 
-# Paths
+ Paths
 - Absolute path starts from `/` (example: `/var/log`)
 - Relative path starts from where I am (example: `docs/a.txt`)
 - `.` = current folder
 - `..` = parent folder
 - `~` = home folder
 
-# Commands learned
+ Commands learned
 - `pwd` = show current folder
 - `ls` = list files
 - `ls -a` = show hidden files
@@ -50,7 +50,7 @@
 - `touch file.txt` = create an empty file
 - `clear` = clear the screen
 
-# Key takeaway
+ Key takeaway
 - Folders are like rooms in a house
 - I am always standing in one room
 - `pwd` tells me which room
