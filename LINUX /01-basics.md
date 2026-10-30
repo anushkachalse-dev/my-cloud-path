@@ -1,4 +1,4 @@
-# Linux Notes - Day 1: Basics
+# Linux Notes - 1: Basics
 
  What is Linux?
 - Free, open-source operating system
