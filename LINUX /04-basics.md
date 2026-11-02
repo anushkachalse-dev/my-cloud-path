@@ -10,13 +10,23 @@ The `adduser` command creates a new user account. It is an interactive command t
 - Creates a primary group with the same name as the user
 - Prompts for a password and optional details (full name, phone, etc.)
 
+Example output:
+      groupadd AK
+      useradd -g AK -s /bin/bash -c "part of AK team" -m -d /home/victor victor
+
 Root or sudo privileges are required to run it.
 
  3. Password Setup
 During `adduser`, the system asks for a password and then asks to retype it. This confirmation prevents typing mistakes. Passwords are not stored in plain text. They are stored as hashes in `/etc/shadow`.
 
- 4. User and Group IDs: `id`
+Example output:
+      passwd victor 
+
+ 5. User and Group IDs: `id`
 Linux identifies users and groups by numbers, not names. The `id` command shows:
+
+Example output:
+     id victor
 
 - **UID:** the user ID
 - **GID:** the primary group ID
